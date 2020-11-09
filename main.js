@@ -3,7 +3,7 @@ const {app, BrowserWindow, Menu} = require('electron')
 const path = require('path')
 require('update-electron-app')({
   repo: 'DLS-Inc/dls-info',
-  updateInterval: '1 hour',
+  updateInterval: '1 minutes',
   logger: require('electron-log')
 })
 
